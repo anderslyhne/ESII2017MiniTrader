@@ -13,4 +13,13 @@ public class SimpleClassTest {
 		SimpleClass sc = new SimpleClass();
 		assertEquals(sc.thisMethodShouldReturn42(), 42);
 	}
+
+
+	@Test
+	public void anotherTest() {
+		SimpleClass sc = new SimpleClass();
+		assertEquals(sc.thisMethodShouldReturn42(), 42);
+	}
+
 }
+
