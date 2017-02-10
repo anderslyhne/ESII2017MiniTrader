@@ -21,13 +21,5 @@ public class SimpleClassTest {
 		assertEquals(sc.thisMethodShouldReturn42(), 42);
 	}
 
-
-	@Test
-	public void yetAnotherTest() {
-		SimpleClass sc = new SimpleClass();
-		assertEquals(sc.thisMethodShouldReturn42(), 42);
-	}
-
-
 }
 
